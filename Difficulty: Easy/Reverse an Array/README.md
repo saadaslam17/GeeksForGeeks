@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/reverse-an-array/0">Reverse an Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array of integers&nbsp;<strong>arr[]</strong>. Your task is to&nbsp;<strong>reverse</strong> the given array.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/reverse-an-array/1">Reverse an Array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given an array of integers&nbsp;<strong>arr[]</strong>. Your task is to&nbsp;<strong>reverse</strong> the given array.</span></p>
 <p><span style="font-size: 14pt;">Note:<span style="background-color: #ffffff; color: #1e2229; font-family: Nunito;">&nbsp;</span>Modify the array in place.</span></p>
 <p><span style="font-size: 14pt;"><strong>Examples:<br></strong></span></p>
 <pre><span style="font-size: 14pt;"><strong>Input: </strong>arr = [1, 4, 3, 2, 6, 5]
