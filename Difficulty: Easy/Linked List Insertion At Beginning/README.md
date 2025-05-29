@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/1?page=1&category=Linked%20List&difficulty=Easy&sortBy=accuracy">Linked List Insertion At Beginning</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given the head of a Singly Linked List and a value x, insert that value x at the beginning of the LinkedList and return the modified Linked List.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/1">Linked List Insertion At Beginning</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given the head of a Singly Linked List and a value x, insert that value x at the beginning of the LinkedList and return the modified Linked List.</span></p>
 <p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>LinkedList: 1-&gt;2-&gt;3-&gt;4-&gt;5 , x = 6
 <strong>Output: </strong>6-&gt;1-&gt;2-&gt;3-&gt;4-&gt;5<strong>
