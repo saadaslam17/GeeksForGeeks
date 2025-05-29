@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1?page=1&category=Linked%20List&difficulty=Easy&sortBy=accuracy">Delete Head of Linked List</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a linked list of size <strong>n</strong>, you have to<strong> delete the head </strong>of the linked list and return the new head.<br>
+<h2><a href="https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1?page=1&category=Linked%20List&sortBy=accuracy">Delete Head of Linked List</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a linked list of size <strong>n</strong>, you have to<strong> delete the head </strong>of the linked list and return the new head.<br>
 <strong>Note: </strong>Please also set the next of the original head to null.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
