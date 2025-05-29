@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1?page=1&category=Linked%20List&difficulty=Basic&sortBy=submissions">Doubly Linked List Traversal</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a doubly linked list of n elements. The task is to&nbsp;return the doubly linked list as an array.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1?page=1&category=Linked%20List&sortBy=accuracy">Doubly Linked List Traversal</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a doubly linked list of n elements. The task is to&nbsp;return the doubly linked list as an array.</span></p>
 <p><span style="font-size: 14pt;">Note: The driver code will print the list forward and backward.</span></p>
 <p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 14pt;"><strong>Input: </strong>LinkedList: 1&lt;-&gt;2&lt;-&gt;3&lt;-&gt;4&lt;-&gt;5
