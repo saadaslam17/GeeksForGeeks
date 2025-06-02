@@ -10,34 +10,52 @@
 class Solution {
   public:
     Node* segregate(Node* head) {
-    int zero = 0, one = 0, two = 0;
+        // code here
+        Node *zeroHead = new Node(-1);
+        Node *oneHead = new Node(-1);
+        Node *twoHead = new Node(-1);
+        
+        Node *zero = zeroHead;
+        Node *one = oneHead;
+        Node *two = twoHead;
+        
 
-    Node* temp = head;
-
-    // Count occurrences of 0s, 1s, and 2s
-    while (temp != nullptr) {
-        if (temp->data == 0) zero++;
-        else if (temp->data == 1) one++;
-        else two++;
-        temp = temp->next;
-    }
-
-    // Reassign values in the list
-    temp = head;
-    while (temp != nullptr) {
-        if (zero > 0) {
-            temp->data = 0;
-            zero--;
-        } else if (one > 0) {
-            temp->data = 1;
-            one--;
-        } else {
-            temp->data = 2;
-            two--;
+        
+        Node *temp = head;
+        while(temp != NULL)
+        {
+            if(temp -> data == 0)
+            {
+                zero -> next = temp;
+                zero = zero -> next;
+                temp = temp -> next;
+            }
+            else if(temp -> data == 1)
+            {
+                one -> next = temp;
+                one = one -> next;
+                temp = temp -> next;
+            }
+            else
+            {
+                two -> next = temp;
+                two = two -> next;
+                temp = temp -> next;
+            }
         }
-        temp = temp->next; // ✅ move to next node
+        
+            if(oneHead -> next == NULL)
+            {
+                zero -> next = twoHead -> next;
+            }
+            else
+            {
+                zero -> next = oneHead -> next;
+            }
+            
+            one -> next = twoHead -> next;
+            two -> next = NULL;
+            
+            return zeroHead -> next;
     }
-
-    return head;
-}
 };
